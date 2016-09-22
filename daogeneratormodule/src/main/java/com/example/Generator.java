@@ -14,24 +14,20 @@ public class Generator {
 //    {
 //        "id":1,
 //            "name": "Jon Doe",
-//            "age":50,
 //            "address": {
-//        "country":"usa",
 //                "city":"NY",
 //                "personId":1
-//    },
+//         },
 //
 //        "booksOwn":[
 //        {
 //            "bookId":1,
 //                "bookName":"A brief history of time",
-//                "author":"Htephen Hawking",
 //                "personId":1
 //        },
 //        {
 //            "bookId":2,
 //                "bookName":"Harry Potter and the Half-Blood Prince",
-//                "author":"J. K. Rowling",
 //                "personId":1
 //        }
 //        ]

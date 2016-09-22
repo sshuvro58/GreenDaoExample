@@ -9,8 +9,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 
 /**
- * Created by Mithun Sarker on 9/21/16.
- * For Surroundapps
+ * Author:Mithun Sarker Shuvro
  */
 public class SecretsDatabaseKeyGenerator {
     public static final int DEFAULT_KEY_LENGTH = 256;

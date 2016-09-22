@@ -5,8 +5,7 @@ import android.content.SharedPreferences;
 import android.util.Log;
 
 /**
- * Created by Mithun Sarker on 9/21/16.
- * For Surroundapps
+ * Author:Mithun Sarker Shuvro
  */
 public class SecretsDatabaseKeyHolder {
 

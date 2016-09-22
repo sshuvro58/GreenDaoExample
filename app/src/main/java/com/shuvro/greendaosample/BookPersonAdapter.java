@@ -9,19 +9,18 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import SampleDaoModel.Person;
+import SampleDaoModel.Book;
 
 /**
  * Author:Mithun Sarker Shuvro
  */
-public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.ViewHolder> {
+public class BookPersonAdapter extends RecyclerView.Adapter<BookPersonAdapter.ViewHolder> {
     Context context;
-    ArrayList<Person> personArrayList;
+    ArrayList<Book> bookArrayList;
 
-    public PersonAdapter(Context context, ArrayList<Person> personArrayList) {
+    public BookPersonAdapter(Context context, ArrayList<Book> bookArrayList) {
         this.context = context;
-        this.personArrayList = personArrayList;
-        //notifyDataSetChanged();
+        this.bookArrayList = bookArrayList;
     }
 
     @Override
@@ -34,15 +33,15 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Person person = personArrayList.get(position);
+        Book book = bookArrayList.get(position);
 
-        holder.textView.setText("Name: "+person.getName()+"  city: "+person.getAddress().getCity());
+        holder.textView.setText("Name: "+book.getBookName());
 
     }
 
     @Override
     public int getItemCount() {
-        return personArrayList.size();
+        return bookArrayList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{

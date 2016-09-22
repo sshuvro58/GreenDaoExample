@@ -3,8 +3,7 @@ package com.shuvro.greendaosample;
 import android.app.Application;
 
 /**
- * Created by Mithun Sarker on 9/21/16.
- * For Surroundapps
+ * Author:Mithun Sarker Shuvro
  */
 public class SampleApplication extends Application{
 
